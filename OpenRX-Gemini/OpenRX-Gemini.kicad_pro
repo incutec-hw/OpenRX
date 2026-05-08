@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.09
         }
       },
       "diff_pair_dimensions": [
@@ -145,8 +145,8 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.2,
         "min_track_width": 0.09,
-        "min_via_annular_width": 0.05,
-        "min_via_diameter": 0.3,
+        "min_via_annular_width": 0.125,
+        "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
@@ -237,7 +237,7 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.3,
+          "diameter": 0.45,
           "drill": 0.2
         }
       ],
@@ -693,7 +693,7 @@
         "uuid": "c2d3e4f5-a6b7-8901-cdef-234567890abc"
       }
     ],
-    "used_designators": "R12",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -702,8 +702,20 @@
       "OpenRX-Gemini"
     ],
     [
-      "a1b2c3d4-e5f6-7890-abcd-ef0123456789",
-      "ESP32-C3 + 2x LR1121 Gemini"
+      "3494b709-9fe4-4ec8-a607-11cdb4cd6d78",
+      "ESP32-C3"
+    ],
+    [
+      "6ddf1bbe-5523-4361-9bbe-a0145fc055c6",
+      "LR1121_A"
+    ],
+    [
+      "92bfb8d6-2e76-4f7e-8d5a-1e9ea1b65bf9",
+      "LR1121_B"
+    ],
+    [
+      "fc68c4a5-0679-42dc-bec0-65ad962bb7ef",
+      "Clock"
     ]
   ],
   "text_variables": {},
